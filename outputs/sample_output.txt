@@ -1,0 +1,222 @@
+================================================================
+SAMPLE OUTPUT - Business Rules Console Application
+Student: Shubhankar Pharasi | Student ID: 260
+================================================================
+
+This file contains two sample runs of the program:
+
+RUN 1: A complete successful run covering all four features
+       (Customer Profile, Billing, Loan Eligibility, Campaign Eligibility)
+       with valid inputs throughout.
+
+RUN 2: A run that intentionally enters several invalid inputs first
+       (negative age, negative income, out-of-range credit score,
+       and an invalid customer segment) to demonstrate that the
+       program detects these, shows an error message, and asks
+       the user to re-enter the value instead of crashing.
+
+================================================================
+RUN 1: FULL SUCCESSFUL RUN (ALL FEATURES)
+================================================================
+
+Welcome to the Business Rules Console Application.
+
+##################################################
+   BUSINESS RULES CONSOLE APPLICATION
+##################################################
+1. Enter Customer Profile & View Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Check
+5. Exit
+##################################################
+
+Enter your choice (1-5): 1
+
+==================================================
+CUSTOMER DETAILS
+==================================================
+Enter customer name: Shubhankar Pharasi
+Enter customer age: 29
+Enter customer city: Mumbai
+Enter monthly income (Rs.): 80000
+Enter monthly expenses (Rs.): 30000
+Enter existing EMI amount (Rs.): 10000
+Enter credit score (300-900): 720
+Enter customer segment (Standard/Premium/Enterprise): Premium
+
+==================================================
+CUSTOMER FINANCIAL SUMMARY
+==================================================
+Name                               : Shubhankar Pharasi
+Age                                : 29
+City                               : Mumbai
+Segment                            : Premium
+Monthly Income (Rs.)               : 80000.00
+Monthly Expenses (Rs.)             : 30000.00
+Existing EMI (Rs.)                 : 10000.00
+Credit Score                       : 720
+Monthly Savings (Rs.)              : 40000.00
+Savings Percentage                 : 50.00%
+EMI-to-Income Ratio                : 0.12
+Risk Category                      : Low Risk
+Value Category                     : Medium Value
+
+##################################################
+   BUSINESS RULES CONSOLE APPLICATION
+##################################################
+1. Enter Customer Profile & View Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Check
+5. Exit
+##################################################
+
+Enter your choice (1-5): 3
+Enter requested loan amount (Rs.): 500000
+
+==================================================
+LOAN ELIGIBILITY DECISION
+==================================================
+Decision                           : Approved
+Reason                             : Credit score (720) is strong, EMI-to-income ratio (0.12) is healthy, savings percentage (50.00%) is decent, and the requested loan amount is reasonable compared to income.
+
+##################################################
+   BUSINESS RULES CONSOLE APPLICATION
+##################################################
+1. Enter Customer Profile & View Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Check
+5. Exit
+##################################################
+
+Enter your choice (1-5): 2
+
+==================================================
+PRODUCT BILLING DETAILS
+==================================================
+Enter product name: Wireless Mouse
+Enter product category: Electronics
+Enter quantity: 2
+Enter unit price (Rs.): 1200
+Enter discount percentage (0-100): 10
+Enter GST percentage: 18
+Enter delivery charge (Rs.): 150
+
+==================================================
+BILLING SUMMARY
+==================================================
+Product Name                       : Wireless Mouse
+Product Category                   : Electronics
+Quantity                           : 2
+Unit Price (Rs.)                   : 1200.00
+Gross Amount (Rs.)                 : 2400.00
+Discount Percentage                : 10.00%
+Discount Amount (Rs.)              : 240.00
+Amount After Discount (Rs.)        : 2160.00
+GST Percentage                     : 18.00%
+GST Amount (Rs.)                   : 388.80
+Delivery Charge Applied (Rs.)      : 150.00
+FINAL PAYABLE AMOUNT (Rs.)         : 2698.80
+
+##################################################
+   BUSINESS RULES CONSOLE APPLICATION
+##################################################
+1. Enter Customer Profile & View Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Check
+5. Exit
+##################################################
+
+Enter your choice (1-5): 4
+
+==================================================
+CAMPAIGN ELIGIBILITY RESULT
+==================================================
+Assigned Campaign                  : Loan Offer Campaign
+Reason                             : Customer has a healthy savings percentage (50.00%) and resides in a metro city (Mumbai), indicating good repayment capacity for a loan offer.
+
+##################################################
+   BUSINESS RULES CONSOLE APPLICATION
+##################################################
+1. Enter Customer Profile & View Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Check
+5. Exit
+##################################################
+
+Enter your choice (1-5): 5
+
+Thank you for using the Business Rules Console Application. Goodbye!
+
+================================================================
+RUN 2: RUN DEMONSTRATING INVALID INPUT HANDLING
+================================================================
+
+Welcome to the Business Rules Console Application.
+
+##################################################
+   BUSINESS RULES CONSOLE APPLICATION
+##################################################
+1. Enter Customer Profile & View Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Check
+5. Exit
+##################################################
+
+Enter your choice (1-5): 1
+
+==================================================
+CUSTOMER DETAILS
+==================================================
+Enter customer name: Anjali Verma
+Enter customer age: -5
+Invalid input. Age cannot be negative. Please try again.
+Enter customer age: 26
+Enter customer city: Pune
+Enter monthly income (Rs.): -2000
+Invalid input. This value cannot be negative. Please try again.
+Enter monthly income (Rs.): 45000
+Enter monthly expenses (Rs.): 15000
+Enter existing EMI amount (Rs.): 8000
+Enter credit score (300-900): 950
+Invalid input. Credit score must be between 300 and 900.
+Enter credit score (300-900): 640
+Enter customer segment (Standard/Premium/Enterprise): FancySegment
+Invalid input. Segment must be one of: Standard, Premium, Enterprise.
+Enter customer segment (Standard/Premium/Enterprise): Standard
+
+==================================================
+CUSTOMER FINANCIAL SUMMARY
+==================================================
+Name                               : Anjali Verma
+Age                                : 26
+City                               : Pune
+Segment                            : Standard
+Monthly Income (Rs.)               : 45000.00
+Monthly Expenses (Rs.)             : 15000.00
+Existing EMI (Rs.)                 : 8000.00
+Credit Score                       : 640
+Monthly Savings (Rs.)              : 22000.00
+Savings Percentage                 : 48.89%
+EMI-to-Income Ratio                : 0.18
+Risk Category                      : Medium Risk
+Value Category                     : Medium Value
+
+##################################################
+   BUSINESS RULES CONSOLE APPLICATION
+##################################################
+1. Enter Customer Profile & View Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Check
+5. Exit
+##################################################
+
+Enter your choice (1-5): 5
+
+Thank you for using the Business Rules Console Application. Goodbye!
