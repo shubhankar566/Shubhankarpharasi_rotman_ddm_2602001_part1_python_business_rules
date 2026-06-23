@@ -150,19 +150,19 @@ matching group:
 ```
 shubhankarpharasi_260_part1_python_business_rules/
 │
-├── README.md              <- This file
-├── main.py                 <- Menu loop only; calls functions from src/
+├── README.md
+├── main.py
 ├── src/
-│   ├── __init__.py          <- Marks src/ as a Python package
-│   ├── customer.py          <- Feature 1: profile, savings, risk & value rules
-│   ├── billing.py           <- Feature 2: billing calculations
-│   ├── eligibility.py       <- Features 3 & 4: loan and campaign rules
-│   └── utils.py              <- Shared constants + input validation helpers
+│   ├── __init__.py
+│   ├── customer.py
+│   ├── billing.py
+│   ├── eligibility.py
+│   └── utils.py
 ├── outputs/
-│   ├── sample_output.txt     <- Two full sample runs (success + invalid input)
-│   └── screenshots/           <- Screenshots of the program running (see note inside)
+│   ├── sample_output.txt
+│   └── screenshots/
 └── tests/
-    └── test_cases.md          <- 13 documented test cases
+    └── test_cases.md
 ```
 
 **Why the code is split this way:** `utils.py` holds anything reused
